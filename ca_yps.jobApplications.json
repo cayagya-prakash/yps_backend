@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "6964f0dad4f8ed38b5742c12"
+  },
+  "jobId": {
+    "$oid": "6960a409fef7440d7546a71a"
+  },
+  "fullName": "Mehta yukti",
+  "email": "sonali123@yopmail.com",
+  "mobile": "9099515654",
+  "city": "SK (Himmatnagar)",
+  "qualification": "mca",
+  "experience": "3",
+  "status": "Fresher",
+  "resume": "/uploads/resume/1768222937997-test.pdf",
+  "portfolio": "",
+  "reason": "asdasd",
+  "expectedSalary": "",
+  "noticePeriod": "",
+  "appliedAt": {
+    "$date": "2026-01-12T13:02:18.018Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6965eeca8622281cb34fdaed"
+  },
+  "jobId": {
+    "$oid": "6960a409fef7440d7546a71a"
+  },
+  "fullName": "Sonali",
+  "email": "monika123@yopmail.com",
+  "mobile": "9876543112",
+  "city": "AHMEDABAD",
+  "qualification": "mca",
+  "experience": "1",
+  "status": "Working Professional",
+  "resume": "/uploads/resume/1768287946565-Student_Assignments_Worksheets.pdf",
+  "portfolio": "",
+  "reason": "asdasdsad",
+  "expectedSalary": "",
+  "applyfor": "Artical ship",
+  "noticePeriod": "",
+  "appliedAt": {
+    "$date": "2026-01-13T07:05:46.577Z"
+  }
+}]

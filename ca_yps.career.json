@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6960a409fef7440d7546a71a"
+  },
+  "jobTitle": "Artical ship",
+  "jobType": "Full-time",
+  "department": "Audit",
+  "location": "Ahmedabad, Gujarat, India",
+  "workMode": "On-site",
+  "experience": "0–1 Year",
+  "qualification": "CA",
+  "jobDescription": "sadasdaasdas",
+  "keyResponsibilities": "",
+  "requiredSkills": "gst",
+  "preferredSkills": "",
+  "salaryRange": "5000",
+  "openings": 2,
+  "deadline": "2026-01-25T18:30:00.000Z",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "6965ff5274047b485476c3c4"
+  },
+  "jobTitle": "Accountant",
+  "jobType": "Full-time",
+  "department": "Accounts",
+  "location": "Ahmedabad, Gujarat, India -380009",
+  "workMode": "On-site",
+  "experience": "3+ Years",
+  "qualification": "CA Inter",
+  "jobDescription": "Accounting And  Internal Audit ",
+  "keyResponsibilities": "",
+  "requiredSkills": "Accounting , Audit , ",
+  "preferredSkills": "",
+  "salaryRange": "",
+  "openings": 2,
+  "deadline": "2026-01-30T18:30:00.000Z",
+  "status": "draft"
+},
+{
+  "_id": {
+    "$oid": "69733cb5a88707a59e43dbc0"
+  },
+  "jobTitle": "Account",
+  "jobType": "Full-time",
+  "department": "Audit",
+  "location": "Thaltej, Ahmedabad",
+  "workMode": "On-site",
+  "experience": "3",
+  "qualification": "M.Com",
+  "jobDescription": "sdfsdfsdf",
+  "keyResponsibilities": "",
+  "requiredSkills": "Tally",
+  "preferredSkills": "",
+  "salaryRange": "",
+  "openings": 3,
+  "deadline": "2026-01-18T18:30:00.000Z",
+  "status": "draft"
+}]
