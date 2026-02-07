@@ -14,7 +14,7 @@ import path from "path";
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["ca-yagyap.vercel.app","yps-dashboard.vercel.app"], // change to live url
+    origin: ["https://ca-yagyap.vercel.app","yps-dashboard.vercel.app"], // change to live url
     // origin: "http://localhost:3000",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Cache-Control', 'Expires', 'Pragma'],
