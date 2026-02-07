@@ -14,7 +14,8 @@ import path from "path";
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: "http://localhost:3000", // change to live url
+    origin: ["https://ca-yagyap-o79br46o5-cayagya-prakashs-projects.vercel.app/","https://yps-dashboard-c7xrahhyb-cayagya-prakashs-projects.vercel.app/login"], // change to live url
+    // origin: "http://localhost:3000",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Cache-Control', 'Expires', 'Pragma'],
     credentials: true
@@ -31,7 +32,7 @@ app.use('/api/application/',applicationroutes)
 app.use('/api/inquery',inqueryroutes)
 app.use('/api/dashboard',dashboardroutes)
 
-const port = process.env.Port || 5000
+const port = process.env.PORT || 5000
 app.get("/", (req, res) => {
     res.send("Node js code deployedd...")
 })

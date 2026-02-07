@@ -2,9 +2,9 @@ import dotenv from "dotenv";
 dotenv.config();
 import { MongoClient } from 'mongodb' 
 
-const Url = "mongodb://localhost:27017/ca_yps"
+const Url = process.env.MONGO_URL
 const client = new MongoClient(Url)
-const dbName = 'ca_yps';
+const dbName = process.env.DB_NAME;
 
 export const db = async() =>{
     await client.connect();
